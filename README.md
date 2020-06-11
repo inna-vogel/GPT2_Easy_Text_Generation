@@ -83,21 +83,29 @@ The "checkpoint folder" contains the data to resume the training in the future.
 
 ### 6.2 Generate text samles with your own trained model 
 
-In the src/models folder, you should have just one folder called 117M. Create another folder to store your model alongside with the original model. I made a new folder called lyric. Now, I have two folders in src/models, one is called 117M and the other is called lyric.
-Go to src/checkpoint/run1 folder, and copy the following files:
+1. Go to "src/models" folder which contains the folder "117M"
+2. Create another folder (in my case "shakespeare") 
+3. Go to "src/checkpoint/run1" folder, and copy the following files:
+
 checkpoint
 model-xxx.data-00000-of-00001
 model-xxx.index
 model-xxx.meta
-xxx refers to the step number. Since I have trained for 501 steps, I have model-501.index.
-Paste them into the newly created folder (in my case, the folder is called lyric). Next, go to the 117M folder and copy the following files:
+
+xxx refers to the step number. 
+
+4. Paste the copied files to the folder created in 2. (in my case the shakespeare folder)
+
+5. Go to the "117M" folder and copy the following files:
 encoder.json
 hparams.json
 vocab.bpe
 
+6. Paste the copied files also in the folder created in 2. You should have 7 files in your created folder. 
 
+### Generate samples
 
-Paste them into the lyric folder. Double check that you should have 7 files in it. With this, we are ready to generate samples. There are two ways to generate samples.
+it. With this, we are ready to generate samples. There are two ways to generate samples.
 Generate unconditional sample
 Unconditional sample refers to randomly generate sample without taking into account any user input. Think of it as random sample. Make sure you are in the src directory and type the following in the command prompt:
 python generate_unconditional_samples.py --model_name lyric
