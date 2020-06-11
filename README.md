@@ -121,18 +121,21 @@ batch_size=1 - Number of batches (only affects speed/memory).
 length=None - Number of tokens in generated text, if None (default), 
 is determined by model hyperparameters.
 
-temperature=1 - Float value controlling randomness in boltzmann distribution. 
-Lower temperature results in less random completions. As the temperature 
-approaches zero, the model will become deterministic and repetitive. 
-Higher temperature results in more random completions.
+temperature=1 - Controlling randomness. 
+Lower temperature results in less random completions. 
+Temperature 0 makes the model repetitive. 
+Higher temperature results in more random completions. A goof value is 0.7
 
-top_k=0 - Integer value controlling diversity. 1 means only 1 word is 
-considered for each step (token), resulting in deterministic completions, 
-while 40 means 40 words are considered at each step. 0 (default) is a 
-special setting meaning no restrictions. 40 generally is a good value.
+top_k=0 - In Top-K sampling, the K most likely next words are filtered and the probability 
+mass is redistributed among only those K next words. 
+1 means top 1 word is considered for each step (token), resulting in repetitive completions
+40 means 40 words are considered at each step. 
+0 (default) is a special setting meaning no restrictions. 40 generally is a good value.
 
-top_p=0.0 - Float value controlling diversity. Implements nucleus sampling, 
-overriding top_k if set to a value > 0. A good setting is 0.9.
+top_p=0.0 - Instead of sampling only from the most likely K words, 
+in Top-p sampling chooses from the smallest possible set of words whose cumulative 
+probability exceeds the probability p. 
+Having set p=0.92, the model will select the tokens exceeding 92% probability of next tokens.  
 ```
 
 
