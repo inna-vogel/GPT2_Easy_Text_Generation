@@ -70,6 +70,7 @@ It will not stop the world, and it will not stop the world.
 I will not kill the world; for the world is in the world,
 and not the world is in me, for I am in thee.
 ```
+Well, sounds already like Shakespeare on LSD :-)...
 
 After stopping a "checkpoint folder" and "samples folder" are generated. 
 Inside each folder is a folder called "run1". 
