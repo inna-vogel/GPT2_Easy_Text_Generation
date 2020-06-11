@@ -26,8 +26,20 @@ Folder "117M" contains the GPT-2 model containing the following files:
 6. model.ckpt.meta
 7. vocab.bpe
 
-
 Folder "shakespeare" contains the custom fine tuned model.
+
+### Instruction how to fine tune own model.
+
+### 1. Prepare you .txt data.
+
+You can use any kind of text data that you can find as long as they are in English. 
+You can put all text into one text file or save them in multiple text files in one directory. 
+
+If you use one text file, separate each text with: 
+
+```
+<|endoftext|>
+```
 
 
 
