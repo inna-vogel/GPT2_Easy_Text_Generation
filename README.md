@@ -135,7 +135,8 @@ mass is redistributed among only those K next words.
 top_p=0.0 - Instead of sampling only from the most likely K words, 
 in Top-p sampling chooses from the smallest possible set of words whose cumulative 
 probability exceeds the probability p. 
-Having set p=0.92, the model will select the tokens exceeding 92% probability of next tokens.  
+Having set p=0.92, the model will select the tokens exceeding 92% probability of next tokens 
+= sample only from 92% most likely words.  
 ```
 
 
