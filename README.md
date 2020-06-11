@@ -63,11 +63,20 @@ You should see the following output:
 Use __"Ctrl+C"__ to stop the training.
 By default, the model saves every 1000 steps and generates a sample after 100 steps. 
 
+Let's see one of the first produced samples:
+
+```
+It will not stop the world, and it will not stop the world. 
+I will not kill the world; for the world is in the world,
+and not the world is in me, for I am in thee.
+```
+
 After stopping a "checkpoint folder" and "samples folder" are generated. 
 Inside each folder is a folder called "run1". 
 Samples contains the examples the model created automatically. 
 The "checkpoint folder" contains the data to resume the training in the future. 
 
+### Generate Samples
 
 
 
