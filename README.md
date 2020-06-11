@@ -58,6 +58,16 @@ python train.py --dataset shakespeare.npz
 You should see the following output:
 ![alt text](training.PNG "Training Process")
 
+### Stop Training
+
+Use __"Ctrl+C"__ to stop the training.
+By default, the model saves every 1000 steps and generates a sample after 100 steps. 
+
+After stopping a "checkpoint folder" and "samples folder" are generated. 
+Inside each folder is a folder called "run1". 
+Samples contains the examples the model created automatically. 
+The "checkpoint folder" contains the data to resume the training in the future. 
+
 
 
 
