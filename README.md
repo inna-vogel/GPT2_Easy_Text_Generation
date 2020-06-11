@@ -44,11 +44,15 @@ If you use one text file, separate each text with:
 
 I used the texts of Shakespeare and saved them as shakespeare.text.
 
-Now encode the texts: 
+### 3. Encode the texts
 
 ```
 python encode.py shakespeare.txt shakespeare.npz
 ```
+
+### 4. Train GPT-2
+
+
 
 
 
