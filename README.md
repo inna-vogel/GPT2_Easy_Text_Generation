@@ -55,7 +55,7 @@ python encode.py shakespeare.txt shakespeare.npz
 ```
 python train.py --dataset shakespeare.npz 
 ```
-![alt text](training.PNG "Title")
+![alt text](training.PNG "Training Process")
 
 
 
