@@ -52,6 +52,12 @@ python encode.py shakespeare.txt shakespeare.npz
 
 ### 4. Train GPT-2
 
+```
+python train.py --dataset shakespeare.npz
+```
+
+
+
 
 
 
