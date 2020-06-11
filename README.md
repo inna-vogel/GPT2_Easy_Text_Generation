@@ -40,6 +40,15 @@ If you use one text file, separate each text with:
 ```
 <|endoftext|>
 ```
+### 2. Navigate to the "src" folder and save the text or folder 
+
+I used the texts of Shakespeare and saved them as shakespeare.text.
+
+Now encode the texts: 
+
+```
+python encode.py shakespeare.txt shakespeare.npz
+```
 
 
 
