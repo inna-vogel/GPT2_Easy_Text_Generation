@@ -14,6 +14,13 @@ This custom based fine tuning of GPT-2 ist based on ["Beginner’s Guide to Retr
 pip install -r path/to/requirements.txt
 ```
 
+### In the "src" folder open the "models" folder:
+
+Folder "117M" contains the GPT-2 model
+Folder "shakespeare" contains the custom fine tuned model.
+
+
+
 
 
 In progress...
