@@ -16,7 +16,17 @@ pip install -r path/to/requirements.txt
 
 ### In the "src" folder open the "models" folder:
 
-Folder "117M" contains the GPT-2 model
+Folder "117M" contains the GPT-2 model containing the following files: 
+
+1. checkpoint
+2. encoder.json
+3. hparams.json
+4. model.ckpt.data-00000-of-00001
+5. model.ckpt.index
+6. model.ckpt.meta
+7. vocab.bpe
+
+
 Folder "shakespeare" contains the custom fine tuned model.
 
 
