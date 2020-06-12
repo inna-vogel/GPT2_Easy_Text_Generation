@@ -95,6 +95,7 @@ xxx refers to the step number.
 4. Paste the copied files to the folder created in 2. (in my case the shakespeare folder)
 
 5. Go to the "117M" folder and copy the following files:
+
 encoder.json
 
 hparams.json
