@@ -94,7 +94,7 @@ xxx refers to the step number.
 
 4. Paste the copied files to the folder created in 2. (in my case the shakespeare folder)
 
-5. Go to the "117M" folder and copy the following files:
+5. Go to the "src/models/117M" folder and copy the following files:
 
 encoder.json
 
@@ -106,7 +106,7 @@ vocab.bpe
 
 ### 7. Generate samples
 
-There are different ways how to generate samples (check the [blog of Ng Wai Foong](https://medium.com/@ngwaifoong92/beginners-guide-to-retrain-gpt-2-117m-to-generate-custom-text-content-8bb5363d8b7f).
+There are different ways how to generate samples (check the [blog of Ng Wai Foong](https://medium.com/@ngwaifoong92/beginners-guide-to-retrain-gpt-2-117m-to-generate-custom-text-content-8bb5363d8b7f)).
 
 I show you how to generate text based on your input. 
 Type the following command:
