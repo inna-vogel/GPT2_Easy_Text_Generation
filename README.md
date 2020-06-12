@@ -35,7 +35,7 @@ Folder "shakespeare" contains my fine tuned model.
 You can use any kind of text data that you can find as long as it is in English. 
 You can put all text into one text file or save them in multiple text files in one directory. 
 
-If you use one text file, separate the texts with: 
+If you use one text file, separate the texts with:  
 
 ```
 <|endoftext|>
