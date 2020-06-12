@@ -85,7 +85,9 @@ The "checkpoint folder" contains the data to resume the training in the future.
 
 checkpoint
 model-xxx.data-00000-of-00001
+
 model-xxx.index
+
 model-xxx.meta
 
 xxx refers to the step number. 
@@ -94,7 +96,9 @@ xxx refers to the step number.
 
 5. Go to the "117M" folder and copy the following files:
 encoder.json
+
 hparams.json
+
 vocab.bpe
 
 6. Paste the copied files also in the folder created in 2. You should have 7 files in your created folder. 
