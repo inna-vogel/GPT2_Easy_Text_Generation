@@ -129,7 +129,7 @@ is determined by model hyperparameters.
 temperature=1 - Controlling randomness. 
 Lower temperature results in less random completions. 
 Temperature 0 makes the model repetitive. 
-Higher temperature results in more random completions. A goof value is 0.7
+Higher temperature results in more random completions. A good value is 0.7
 
 top_k=0 - In Top-K sampling, the K most likely next words are filtered and the probability 
 mass is redistributed among only those K next words. 
